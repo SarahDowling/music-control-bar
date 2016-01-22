@@ -43,11 +43,14 @@ body {
 }
 
 .album {
-
+position: absolute;
+left: 0;
+top: 0;
+width: 20px;
 }
 
 .time {
-
+position: relative;
 }
 
 .time-bar {
@@ -58,6 +61,7 @@ body {
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
+  width: 80%;
 }
 
 /*
@@ -93,13 +97,20 @@ body {
 }
 
 .control-shuffle {
-
+position: absolute;
+top: 0;
+left: 80px;
+width: 80px;
 }
 
 .control-list {
-
+position: absolute;
+right: 0;
+top: 0;
 }
 
 .control-heart {
-
+position: absolute;
+top: 0;
+right: 80px;
 }
