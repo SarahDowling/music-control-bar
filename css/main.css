@@ -46,7 +46,8 @@ body {
 position: absolute;
 left: 0;
 top: 0;
-width: 55px;
+width: 50px;
+z-index: 1000;
 }
 
 .time {
@@ -84,10 +85,16 @@ position: relative;
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
+  top: 50px;
+  left: 0;
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
+  top: 50px;
+  right: 0;
 }
 
 .controls {
