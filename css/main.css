@@ -51,7 +51,7 @@ body {
 }
 
 .time {
-position: relative;
+  position: relative;
 }
 
 .time-bar {
@@ -107,19 +107,19 @@ position: relative;
 }
 
 .control-shuffle {
-position: absolute;
-top: 0;
-left: 55px;
+  position: absolute;
+  top: 0;
+  left: 55px;
 }
 
 .control-list {
-position: absolute;
-right: 5px;
-top: 0;
+  position: absolute;
+  right: 5px;
+  top: 0;
 }
 
 .control-heart {
-position: absolute;
-top: 5px;
-right: 25px;
+  position: absolute;
+  top: 5px;
+  right: 25px;
 }
